@@ -1,0 +1,80 @@
+* {
+    padding: 0%;
+    margin: 0%;
+}
+
+body {
+    background-image: url(image2.jpg);
+}
+
+#navbar {
+    display: flex;
+    align-items: center;
+    background-color: #b1c5c5;
+    top: 0%;
+}
+
+#navbar ul {
+    display: flex;
+    padding-left: 600px;
+
+}
+
+#navbar ul li {
+    list-style: none;
+}
+
+#navbar ul li a {
+    font-size: 16px;
+    display: block;
+    padding: 5px 30px;
+    text-decoration: none;
+    color: rgb(1, 0, 0);
+    border-radius: 22px;
+    transition: all 0.4s ease;
+
+}
+
+#navbar ul li a:hover {
+
+    color: rgb(255, 255, 255);
+    background-color: rgb(66, 81, 81);
+    transform: scaleX(1.1);
+    box-shadow: 5px 6px 7px gray;
+
+}
+
+.headline {
+    margin: 11px;
+    margin-left: 110px;
+    font-size: 0.9rem;
+}
+
+.home {
+    text-align: center;
+    margin: 100px 200px;
+    font-size: 2rem;
+}
+
+.home h1 {
+    margin-bottom: 50px;
+    font-size: 4rem;
+}
+
+.home p {
+    color: white;
+}
+
+/* search bar  */
+.sbar {
+    text-align: center;
+    margin: 20px 20px;
+    border: 1x solid black;
+}
+
+.sbar input {
+    padding: 8px 50px;
+    border-radius: 15px;
+    text-align: center;
+    font-size: 16px;
+}
